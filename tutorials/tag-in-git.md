@@ -40,7 +40,7 @@
     $ git push --delete origin tagname
     ```
 
-    * * Xóa `tag` có tên là `tagname` trên `local` (máy tính cá nhân,...):
+    * Xóa `tag` có tên là `tagname` trên `local` (máy tính cá nhân,...):
 
     ```bash
     $ git tag --delete tagname
