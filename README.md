@@ -9,3 +9,5 @@
 ### Hướng dẫn căn bản về sử dụng Git với command line
 
 1. [Thực hiện một số thao tác với tag trong Git](https://github.com/thiminhnhut/git-tutorial/blob/master/tutorials/tag-in-git.md)
+
+1. [Git Checkout](https://github.com/thiminhnhut/git-tutorial/blob/master/tutorials/git-checkout.md)
