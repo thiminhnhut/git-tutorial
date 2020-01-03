@@ -11,6 +11,18 @@ git submodule # Check submodule exsit
 
 ```
 
+## Update submodule
+
+```bash
+cd path-submodule-in-project
+git pull
+git checkout master
+
+cd path-project
+git add path-submodule-in-project
+git commit -m "Message update submodule"
+```
+
 ## Remove Submodule
 
 - Delete submodule in project
