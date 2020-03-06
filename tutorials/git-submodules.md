@@ -30,3 +30,9 @@ git commit -m "Message update submodule"
 ```bash
 git rm --cached path-submodule-in-project
 ```
+
+## Git push all submodule to remote
+
+```bash
+git submodule foreach git push
+```
