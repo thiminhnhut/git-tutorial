@@ -1,9 +1,8 @@
-
 # Cách lấy lại file đã xóa trong commit trước đó
 
-* Nguồn tham khảo: [Find and restore a deleted file in a Git repository](https://stackoverflow.com/questions/953481/find-and-restore-a-deleted-file-in-a-git-repository)
+- Nguồn tham khảo: [Find and restore a deleted file in a Git repository](https://stackoverflow.com/questions/953481/find-and-restore-a-deleted-file-in-a-git-repository)
 
-* Cách thực hiện:
+- Cách thực hiện:
 
 ```bash
 $ git rev-list -n 1 HEAD -- <file_path>

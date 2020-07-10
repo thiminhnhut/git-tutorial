@@ -1,8 +1,8 @@
 # Git ignore file change mode
 
-* **Thực hiện:** Thi Minh Nhựt - **Email:** thiminhnhut@gmail.com
+- **Thực hiện:** Thi Minh Nhựt - **Email:** thiminhnhut@gmail.com
 
-* **Thời gian:** Ngày 11 tháng 06 năm 2018
+- **Thời gian:** Ngày 11 tháng 06 năm 2018
 
 ## Tài liệu tham khảo
 
@@ -10,16 +10,14 @@
 
 ## Nội dung thực hiện
 
-### Git ignore file change mode
+- Sử dụng lệnh:
 
-* Sử dụng lệnh:
+  ```bash
+  git config core.fileMode false
+  ```
 
-    ``` bash
-    $ git config core.fileMode false
-    ```
+  hoặc:
 
-    hoặc:
-
-    ``` bash
-    $ git config --global core.fileMode false
-    ```
+  ```bash
+  git config --global core.fileMode false
+  ```

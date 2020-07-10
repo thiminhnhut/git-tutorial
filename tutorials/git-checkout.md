@@ -1,8 +1,8 @@
 # Git Checkout
 
-* **Thực hiện:** Thi Minh Nhựt - **Email:** thiminhnhut@gmail.com
+- **Thực hiện:** Thi Minh Nhựt - **Email:** thiminhnhut@gmail.com
 
-* **Thời gian:** Ngày 07 tháng 09 năm 2018
+- **Thời gian:** Ngày 07 tháng 09 năm 2018
 
 ## Tài liệu tham khảo
 
@@ -12,8 +12,8 @@
 
 ### Checkout All Project
 
-* Sử dụng lệnh:
+- Sử dụng lệnh:
 
-    ```
-    $ git reset --hard
-    ```
+  ```
+  $ git reset --hard
+  ```
