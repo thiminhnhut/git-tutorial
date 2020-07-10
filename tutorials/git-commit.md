@@ -1,8 +1,8 @@
 # Git commit
 
-* **Thực hiện:** Thi Minh Nhựt - **Email:** thiminhnhut@gmail.com
+- **Thực hiện:** Thi Minh Nhựt - **Email:** thiminhnhut@gmail.com
 
-* **Thời gian:** Ngày 17 tháng 11 năm 2018
+- **Thời gian:** Ngày 17 tháng 11 năm 2018
 
 ## Tài liệu tham khảo
 
@@ -12,8 +12,14 @@
 
 ### Đưa file từ Staging Area sang Unstaged trong Git
 
-* Đặt vấn đề: Một file đã được commit (ở trạng thái staging area), nếu muốn xóa file ra khỏi staging area nhưng không xóa file ra khỏi project và đưa file về trạng thái unstaged (không sử dụng lệnh `git rm file`).
+- Đặt vấn đề: Một file đã được commit (ở trạng thái staging area), nếu muốn xóa file ra khỏi staging area nhưng không xóa file ra khỏi project và đưa file về trạng thái unstaged (không sử dụng lệnh `git rm file`).
 
-* Sử dụng lệnh:
+- Sử dụng lệnh:
 
-    $ git rm --cached FILE
+  \$ git rm --cached FILE
+
+### Xóa commit cuối cùng trên remote
+
+```bash
+git push -f origin HEAD^:master
+```
