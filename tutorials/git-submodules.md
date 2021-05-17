@@ -36,3 +36,9 @@ git rm --cached path-submodule-in-project
 ```bash
 git submodule foreach git push
 ```
+
+## Git move submodule
+
+```bash
+git mv old-path-submodule new-path-submodule
+```
